@@ -1,0 +1,89 @@
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #001133, #000F29); /* Darker blue gradient */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text Content */
+.text-content {
+    max-width: 600px; /* Standard landing page width */
+    width: 100%;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.8); /* Golden glow */
+    background: none; /* Remove background color */
+}
+
+/* Header */
+h1 {
+    font-size: 32px;
+    color: #FFD700; /* Gold color for header */
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8); /* Text shadow for glow effect */
+}
+
+/* Subheader and List */
+.description h2 {
+    font-size: 24px;
+    color: #FFFF00; /* Bright yellow */
+    margin-bottom: 15px;
+}
+
+.description ul {
+    list-style: none;
+    padding: 0;
+}
+
+.description ul li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #FF5733; /* Neon red for list items */
+}
+
+/* CTA Button */
+.cta-button {
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 22px;
+    background: linear-gradient(90deg, #FFD700, #FF5733); /* Gradient button */
+    color: #000; /* Black text */
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(255, 87, 51, 0.5); /* Button glow */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(255, 87, 51, 0.7); /* Intensify glow on hover */
+}
+
+/* Image Container */
+.image-container {
+    max-width: 400px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
